@@ -80,7 +80,7 @@ st.title("Visual Medical Assistant 👨‍⚕️ 🩺 🏥")
 st.subheader("An app to help with medical analysis using images")
 
 file_uploaded = st.file_uploader('Upload the image for Analysis', 
-type=['png','jpg','jpeg'])
+type=['png','jpg','jpeg','pdf'])
 
 if file_uploaded:
     st.image(file_uploaded, width=200, caption='Uploaded Image')
